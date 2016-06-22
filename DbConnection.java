@@ -5,9 +5,9 @@ public class DbConnection {
     private static PreparedStatement st = null;
     private static ResultSet rs = null;
     private static String username = "root";
-    private static String password = "100288";
+    private static String password = "pass";
     private static String URL = "jdbc:mysql://localhost:3306";
-    private static final String QUERY_USE_DB = "use laz";
+    private static final String QUERY_USE_DB = "use db_name";
     private static String QUERY_SELECT_TABLE = "SELECT * FROM users WHERE SALARY_MIN >= ?";
     private static final float SALARY_MIN = 3500;
     private static final int POSITION_SALARY = 1;
